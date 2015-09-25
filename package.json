@@ -1,0 +1,31 @@
+{
+  "name": "bagpipe",
+  "version": "0.0.1",
+  "description": "Chrome Music PLayer\u001b[D\u001b[D\u001b[D\u001b[l",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjikaka/Bagpipe.git"
+  },
+  "keywords": [
+    "music",
+    "chrome",
+    "os",
+    "lel"
+  ],
+  "author": "Jeremy Karlsson <karlsson@jeremy.se>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/enjikaka/Bagpipe/issues"
+  },
+  "homepage": "https://github.com/enjikaka/Bagpipe#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}

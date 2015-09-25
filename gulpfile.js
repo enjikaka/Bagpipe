@@ -8,7 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass', function() {
-  gulp.src('src/scss/*.scss')
+  gulp.src('./src/scss/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({
       outputStyle: 'compressed'
@@ -17,7 +17,7 @@ gulp.task('sass', function() {
       browsers: ['last 2 versions']
     }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('src/css/*.css'));
+    .pipe(gulp.dest('./src/css/'));
 });
 
 gulp.task('sass:watch', function() {

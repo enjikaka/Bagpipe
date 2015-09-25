@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "launch.js" ]
+      }
+   },
+   "icons": {
+      "128": "icon-128.png",
+      "48": "icon-48.png",
+      "64": "icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkgQT1zrdH161NFZk9Sk2BA/Avi2lZFsEMDYw2bJiVnBT/ujDNXiNryrgKrgLfZDq5UMIbV68BGAVGWoUxXG+Hv17H2kI4RvOwHvS1ggD4i0PIgI8szZSjh03JBjp1/chiXkt/Q+soCb3RI3Px1eA6Lwc94PER9fEmNn7zLwBahrYfPPPZJcqfqJxdGk+QLjDCJ2oDXq8VjA2d0I8jdjq9bVSb7tAdbIlRFHzJcCT7ZKi57s5O2FXcerdzM8uoa1VhHfx48JVsG6TtFs/qFpPgLtCi5QL42+ZcJHXQ5U7i+pRpPw3+MZ2S7ar5Ar6AIS6JBQiMtlSuOmG7mkp4DeZNQIDAQAB",
+   "manifest_version": 2,
+   "name": "Bagpipe",
+   "offline_enabled": true,
+   "permissions": [
+      "fileSystem", 
+      "https://api.spotify.com/*", 
+      "https://*.scdn.co/*"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.3"
+}
